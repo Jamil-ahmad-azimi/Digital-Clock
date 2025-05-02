@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(36, 98, 255, 0.822);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    margin: 0;
+    height: 100vh;
+}
+
+.clock {
+    background-color: rgba(255, 255, 255, 0.438);
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    padding-top: 30px; 
+    border-radius: 10px;
+}
+
+.clock .digit {
+    font-size: 60px;
+    display: inline-block;
+    width: 80px;
+}
+
+.clock .colon {
+    font-size: 60px;
+    display: inline-block;
+    width: auto; /* natural width */
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h3 span {
+    color: #fff;
+}
